@@ -1,0 +1,18 @@
+# Ignore virtual environments
+venv/* linguist-vendored
+.venv/* linguist-vendored
+
+# Ignore IDE/project configs
+.idea/* linguist-vendored
+.vscode/* linguist-vendored
+
+# Ignore compiled Python files
+*.pyc linguist-vendored
+__pycache__/* linguist-vendored
+
+# Ignore HTML and TeX files in stats
+*.html linguist-detectable=false
+*.tex linguist-detectable=false
+
+# Count only your real Python code
+*.py linguist-detectable=true
