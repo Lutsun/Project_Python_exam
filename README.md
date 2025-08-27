@@ -1,5 +1,5 @@
 # Project_Python_exam
-💾 File Backup & Integrity Checker:
+💾 File Backup & Integrity Checker
 
 A Python application that allows you to:
 
